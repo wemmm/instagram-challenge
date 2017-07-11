@@ -29,6 +29,8 @@ Then visit localhost:3000/users/new in your browser!
 
 4/6- Now has a rudimentary comment system! Images are also changed to a uniform width when uploaded.
 
+![Comment System](https://github.com/wemmm/instagram-challenge/blob/master/app/assets/images/comments.png)
+
 ### My approach
 
 I spent a lot of my first day of this trying to get Rails set up with all the appropriate gems. After a few false starts, I decided to go with making the User model first, and got a login/signup/encrypted password situation going. I also started playing around with SASS very early on as I took recreational styling breaks pretty much every time I committed.

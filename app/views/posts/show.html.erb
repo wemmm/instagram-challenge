@@ -11,7 +11,30 @@
 <ul>
 <% @post.comments.each do |comment| %>
 <li>
-  <%= comment.content %>
+
+  <div class="container">
+  <div class="title">
+    <div class="pull-right">
+      <button class="minimize">_</button>
+      <button class="expand">򪪪</span></button>
+      <button class="times">x</button>
+    </div>
+    <h1><div class="icon-my-computer"></div>c o m p u t e r</h1>
+  </div>
+  <ul class="toolbar">
+    <li><u>C</u>omment</li>
+  </ul>
+  <div class="container-inner">
+    <ul class="icons">
+      <li class="icon-floppy"><%= comment.content %></li>
+    </ul>
+  </div>
+  <div class="statusbar">
+    <div class="left">1 object(s)</div>
+    <div class="right">&nbsp;</div>
+  </div>
+</div>
+
 </li>
 <br>
 <% end %>

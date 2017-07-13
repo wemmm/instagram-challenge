@@ -21,6 +21,7 @@ gem 'bcrypt', '~> 3.1.7'
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'capybara', '~> 2.13'
+  gem 'nyan-cat-formatter'
   gem "rubocop", "0.48.1"
   gem "rubocop-rails"
   gem 'selenium-webdriver'
